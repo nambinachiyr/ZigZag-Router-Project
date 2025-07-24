@@ -110,6 +110,13 @@ body{
 .price_details h3{
     color: rgb(44, 44, 44);
 }
+.total_span{
+    font-size: 22px;
+}
+.total_Amount{
+    font-size: 28px;
+    margin: auto 0;
+}
 @media (min-width:700px){
     .cart_Page{
         display: grid;
