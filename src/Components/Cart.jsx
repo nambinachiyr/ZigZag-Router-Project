@@ -71,7 +71,7 @@ const Cart = () => {
                 <hr />
                 <h3>
                     <span className='total_span'>Total Amount</span>
-                    <span>$ {((totalPrice)+(totalPrice*0.1)).toFixed(1)}</span>
+                    <span>$ {((totalPrice)-(totalPrice*0.1)).toFixed(1)}</span>
                 </h3>
             </div>
         ):(<></>)
