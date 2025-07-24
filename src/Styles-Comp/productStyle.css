@@ -1,0 +1,130 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{   
+    background-color:rgb(240, 248, 121);
+    display: flex;   
+    flex-direction: row;
+     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 2px;   
+}
+
+.cards{    
+    width: 63%;
+    height: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border: 1px solid rgb(212, 211, 211);
+    box-shadow: 4px 4px 4px 4px rgb(213, 216, 57);
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+}
+div img{
+    max-width: 200px;
+   cursor: pointer;
+}
+.Image{
+    margin-bottom: 10px;
+    width:280px;
+    text-align: center;   
+}
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+    margin:10px 0;
+    font-size:20px ;
+    color: rgb(150, 149, 149);
+    text-align: center;
+}
+.fd{
+color: rgb(54, 54, 54);
+margin-top: 5px;
+font-size: 12px;
+background-color: antiquewhite;
+padding: 3px 8px;
+border-radius: 10px;
+}
+.pricing-ses{
+    width: 100%;
+    display: flex;
+   align-items:center;
+   justify-content: space-between;
+   margin-top: 10px;
+  
+}
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    font-size: 25px;
+    font-weight:bold;
+    color: rgb(43, 42, 42);
+}
+.rate{
+    background-color: chocolate;
+    padding: 2px 4px;
+    border-radius: 15px;
+    color: white;    
+}
+.cnt{
+    /* margin-top: 8px; */
+    color: rgb(153, 153, 153);
+}
+#cart:active{
+    background-color: beige;
+    border-radius: 10px;
+}
+/* Media Query */
+@media screen and (max-width:250px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    div img{
+       width: 100px;
+    }
+    .Image{
+        width: 100px;
+    }
+}
+
+@media (min-width:600px) {
+    .cards{
+        width: 250px;
+    }
+    
+}
+
+@media (min-width:1500px) {
+    .cards{
+        width: 400px;
+        height: 420px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .fd{
+        
+        font-size: 20px;
+    }
+    .pricing-ses{
+        font-size: 20px;
+    }
+}

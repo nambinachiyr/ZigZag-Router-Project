@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.product_del{    
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#img{
+    margin-top: 10px;
+    width: 300px;
+}
+.pd_title{
+    color: rgb(3, 151, 151);
+    padding: 10px;
+    text-align: center;
+}
+.pd_des,.des{
+    color: rgb(124, 117, 123);
+    text-align: center;
+    padding: 5px;    
+}
+.pd_price{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(33, 34, 34);
+    text-align: center;
+    margin: 20px 0 ;
+}
+.P_ses{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    padding:0px 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.rate_pd{
+    background-color: cornflowerblue;
+    padding: 2px 5px;
+    border-radius: 25px;
+    color: white;
+    margin-right: 10px;
+   
+}
+.pd_cnt{
+    
+    color: rgb(1, 116, 116);
+    
+}
+.back{
+    padding: 10px 20px;
+    /* width: 100%; */
+    margin-left: 35%;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color:cornflowerblue;
+    color: white;
+    border-color: rgb(11, 85, 119);
+    border-width: 3px;
+    cursor: pointer;
+}
+ .ADD_Btn{
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    border-color: coral;
+    margin-left: 3px;
+    background-color: rgb(247, 113, 65);
+    cursor: pointer;
+  }
+@media (min-width:700px) {
+    .product_del{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1.5fr 1fr;
+    }
+   .IG{
+    /* width: 900px; */
+    
+    margin: 10px auto;
+   }
+  .see_2{
+    margin: 10px auto;
+  }
+  .pd_title{
+    font-size: 30px;
+  }
+  .ADD_Btn{
+    padding: 12px 28px;
+    margin-left: 3px;
+    background-color: rgb(247, 113, 65);
+    font-size: 18px;
+  }
+    .pd_des{
+        width: 100%;
+        text-align: start;
+      /* margin: auto; */
+        margin-bottom: 10px;
+    }
+    .P_ses{
+        margin: 15px 10px;
+    }.back{
+        margin:10px 45% ;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+@media (min-width:1400px) {
+    .pd_title{
+        font-size: 30px;
+    }
+    .pd_des{
+        font-size: 22px;
+    }
+    .pd_price{
+        font-size: 39px;
+    }
+    #cart{
+        width: 45px;
+    }
+    .rate_pd{
+        font-size: 20px;
+    }
+    .pd_cnt{
+        font-size: 20px;
+    }
+    .back{
+        margin:20px 50% ;
+        padding: 10px 40px;
+        font-size: 25px;
+    }
+   .ADD_Btn{
+    font-size: 22px;
+   }
+}
+@media (min-width:2000px) {
+    .pd_title{
+        font-size: 55px;
+    }
+    .pd_des,.des{
+        font-size: 32px;
+    }
+    .pd_price{
+        font-size: 49px;
+    }
+    #cart{
+        width: 55px;
+    }
+    .rate_pd{
+        font-size: 35px;
+    }
+    .pd_cnt{
+        font-size: 35px;
+    }
+    .back{
+        margin:20px 50% ;
+        padding: 20px 60px;
+        font-size: 35px;
+    }
+    .ADD_Btn{
+        padding: 13px 30px;
+        font-size: 28px;
+    }
+}
