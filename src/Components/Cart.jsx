@@ -1,7 +1,7 @@
 
 import { useNavigate, useOutletContext } from 'react-router'
 import '../Styles-Comp/cartStyle.css'
-import { useEffect, useState } from 'react'
+
 const Cart = () => {
     const navigate = useNavigate()
     let{cart,dispatch} = useOutletContext()

@@ -1,8 +1,8 @@
 
 import { Link, useLoaderData } from 'react-router'
-import productLoaders from '../Loaders/productLoaders'
+import productLoaders from '../Loaders/productLoaders.js'
 import  '../Styles-Comp/productStyle.css'
-import Header from '../Wrapper/Header'
+
 
 
 const Products = () => {

@@ -1,11 +1,11 @@
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router"
-import Products from "./Components/Products"
-import productLoaders from "./Loaders/productLoaders"
-import Product from "./Components/product"
-import ProductDetails from "./Loaders/ProductDetails"
-import Header from "./Wrapper/Header"
-import Cart from "./Components/Cart"
+import Products from "./Components/Products.jsx"
+import productLoaders from "./Loaders/productLoaders.js"
+import Product from "./Components/product.jsx"
+import ProductDetails from "./Loaders/ProductDetails.js"
+import Header from "./Wrapper/Header.jsx"
+import Cart from "./Components/Cart.jsx"
 let routes =[
     {
       path:"/",
